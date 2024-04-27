@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.wrapper {
+  padding: 64px 250px;
+}
+
+.heading {
+  font-size: 64px;
+  margin-block-end: 16px;
+  text-align: center;
+}
+
+.under-line {
+  width: 300px;
+  height: 2px;
+  background-color: rgb(88, 71, 50);
+  margin: auto;
+  margin-block-end: 34px;
+}
+
+.nav-bar {
+  display: flex;
+  gap: 16px;
+  margin: auto;
+  margin-block-end: 40px;
+}
+
+.nav-btn {
+  padding: 8px 16px;
+  font-size: 16px;
+  transition: 0.3s all;
+}
+
+
+.nav-btn:hover{
+  background-color: rgb(88, 71, 50);
+  color: white;
+}
+
+.active {
+  background-color: rgb(88, 71, 50);
+  color: white;
+}
+
+.contianer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 42px;
+  row-gap: 42px;
+}
+
+.menu-img-wrapper {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+
+.menu-img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border: 1px solid rgb(88, 71, 50);
+}
+
+.menu-wrapper {
+  display: flex;
+  gap: 24px;
+}
+
+.menu-text {
+  width: 100%;
+}
+
+.menu-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-block-end: 20px;
+}
+
+.menu-heading {
+  font-size: 28px;
+}
+
+.price{
+  font-size: 28px;
+  color: rgb(88, 71, 50) ;
+}
+
+.menu-desc {
+  font-size: 18px;
+  color: #4f4f4f;
+}
